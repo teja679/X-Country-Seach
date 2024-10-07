@@ -57,8 +57,9 @@
   height: 120px;
 }
 
-h5 {
+p {
   margin: 10px 0;
+  font-weight: bold;
 }
 
 

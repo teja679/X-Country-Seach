@@ -47,7 +47,7 @@ function App() {
           filteredCountriesList.map(item => {
             return <div key={item.flags.png} className='countryCard'>
               <img src={item.flags.png} alt={item.name.common} />
-              <h5>{item.name.common}</h5>
+              <p>{item.name.common}</p>
             </div>
           })
           :
